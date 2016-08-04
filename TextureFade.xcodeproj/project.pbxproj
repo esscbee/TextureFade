@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6E046E21D53E9B2008922B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E046E11D53E9B2008922B3 /* AppDelegate.swift */; };
+		D6E046E41D53E9B2008922B3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6E046E31D53E9B2008922B3 /* GameScene.sks */; };
+		D6E046E61D53E9B2008922B3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E046E51D53E9B2008922B3 /* GameScene.swift */; };
+		D6E046E81D53E9B2008922B3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E046E71D53E9B2008922B3 /* GameViewController.swift */; };
+		D6E046EB1D53E9B2008922B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E046E91D53E9B2008922B3 /* Main.storyboard */; };
+		D6E046ED1D53E9B2008922B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E046EC1D53E9B2008922B3 /* Assets.xcassets */; };
+		D6E046F01D53E9B2008922B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E046EE1D53E9B2008922B3 /* LaunchScreen.storyboard */; };
+		D6E046FB1D53E9B2008922B3 /* TextureFadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E046FA1D53E9B2008922B3 /* TextureFadeTests.swift */; };
+		D6E047061D53E9B2008922B3 /* TextureFadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E047051D53E9B2008922B3 /* TextureFadeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6E046F71D53E9B2008922B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E046D61D53E9B2008922B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E046DD1D53E9B2008922B3;
+			remoteInfo = TextureFade;
+		};
+		D6E047021D53E9B2008922B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E046D61D53E9B2008922B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E046DD1D53E9B2008922B3;
+			remoteInfo = TextureFade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6E046DE1D53E9B2008922B3 /* TextureFade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureFade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E046E11D53E9B2008922B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6E046E31D53E9B2008922B3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D6E046E51D53E9B2008922B3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D6E046E71D53E9B2008922B3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D6E046EA1D53E9B2008922B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6E046EC1D53E9B2008922B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E046EF1D53E9B2008922B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6E046F11D53E9B2008922B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E046F61D53E9B2008922B3 /* TextureFadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextureFadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E046FA1D53E9B2008922B3 /* TextureFadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureFadeTests.swift; sourceTree = "<group>"; };
+		D6E046FC1D53E9B2008922B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E047011D53E9B2008922B3 /* TextureFadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextureFadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E047051D53E9B2008922B3 /* TextureFadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureFadeUITests.swift; sourceTree = "<group>"; };
+		D6E047071D53E9B2008922B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E046DB1D53E9B2008922B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E046F31D53E9B2008922B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E046FE1D53E9B2008922B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6E046D51D53E9B2008922B3 = {
+			isa = PBXGroup;
+			children = (
+				D6E046E01D53E9B2008922B3 /* TextureFade */,
+				D6E046F91D53E9B2008922B3 /* TextureFadeTests */,
+				D6E047041D53E9B2008922B3 /* TextureFadeUITests */,
+				D6E046DF1D53E9B2008922B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E046DF1D53E9B2008922B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E046DE1D53E9B2008922B3 /* TextureFade.app */,
+				D6E046F61D53E9B2008922B3 /* TextureFadeTests.xctest */,
+				D6E047011D53E9B2008922B3 /* TextureFadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E046E01D53E9B2008922B3 /* TextureFade */ = {
+			isa = PBXGroup;
+			children = (
+				D6E046E11D53E9B2008922B3 /* AppDelegate.swift */,
+				D6E046E31D53E9B2008922B3 /* GameScene.sks */,
+				D6E046E51D53E9B2008922B3 /* GameScene.swift */,
+				D6E046E71D53E9B2008922B3 /* GameViewController.swift */,
+				D6E046E91D53E9B2008922B3 /* Main.storyboard */,
+				D6E046EC1D53E9B2008922B3 /* Assets.xcassets */,
+				D6E046EE1D53E9B2008922B3 /* LaunchScreen.storyboard */,
+				D6E046F11D53E9B2008922B3 /* Info.plist */,
+			);
+			path = TextureFade;
+			sourceTree = "<group>";
+		};
+		D6E046F91D53E9B2008922B3 /* TextureFadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E046FA1D53E9B2008922B3 /* TextureFadeTests.swift */,
+				D6E046FC1D53E9B2008922B3 /* Info.plist */,
+			);
+			path = TextureFadeTests;
+			sourceTree = "<group>";
+		};
+		D6E047041D53E9B2008922B3 /* TextureFadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E047051D53E9B2008922B3 /* TextureFadeUITests.swift */,
+				D6E047071D53E9B2008922B3 /* Info.plist */,
+			);
+			path = TextureFadeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6E046DD1D53E9B2008922B3 /* TextureFade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E0470A1D53E9B2008922B3 /* Build configuration list for PBXNativeTarget "TextureFade" */;
+			buildPhases = (
+				D6E046DA1D53E9B2008922B3 /* Sources */,
+				D6E046DB1D53E9B2008922B3 /* Frameworks */,
+				D6E046DC1D53E9B2008922B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextureFade;
+			productName = TextureFade;
+			productReference = D6E046DE1D53E9B2008922B3 /* TextureFade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6E046F51D53E9B2008922B3 /* TextureFadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E0470D1D53E9B2008922B3 /* Build configuration list for PBXNativeTarget "TextureFadeTests" */;
+			buildPhases = (
+				D6E046F21D53E9B2008922B3 /* Sources */,
+				D6E046F31D53E9B2008922B3 /* Frameworks */,
+				D6E046F41D53E9B2008922B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E046F81D53E9B2008922B3 /* PBXTargetDependency */,
+			);
+			name = TextureFadeTests;
+			productName = TextureFadeTests;
+			productReference = D6E046F61D53E9B2008922B3 /* TextureFadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6E047001D53E9B2008922B3 /* TextureFadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E047101D53E9B2008922B3 /* Build configuration list for PBXNativeTarget "TextureFadeUITests" */;
+			buildPhases = (
+				D6E046FD1D53E9B2008922B3 /* Sources */,
+				D6E046FE1D53E9B2008922B3 /* Frameworks */,
+				D6E046FF1D53E9B2008922B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E047031D53E9B2008922B3 /* PBXTargetDependency */,
+			);
+			name = TextureFadeUITests;
+			productName = TextureFadeUITests;
+			productReference = D6E047011D53E9B2008922B3 /* TextureFadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E046D61D53E9B2008922B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Stephen Brennan";
+				TargetAttributes = {
+					D6E046DD1D53E9B2008922B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D6E046F51D53E9B2008922B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D6E046DD1D53E9B2008922B3;
+					};
+					D6E047001D53E9B2008922B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D6E046DD1D53E9B2008922B3;
+					};
+				};
+			};
+			buildConfigurationList = D6E046D91D53E9B2008922B3 /* Build configuration list for PBXProject "TextureFade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6E046D51D53E9B2008922B3;
+			productRefGroup = D6E046DF1D53E9B2008922B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E046DD1D53E9B2008922B3 /* TextureFade */,
+				D6E046F51D53E9B2008922B3 /* TextureFadeTests */,
+				D6E047001D53E9B2008922B3 /* TextureFadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E046DC1D53E9B2008922B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E046E41D53E9B2008922B3 /* GameScene.sks in Resources */,
+				D6E046F01D53E9B2008922B3 /* LaunchScreen.storyboard in Resources */,
+				D6E046ED1D53E9B2008922B3 /* Assets.xcassets in Resources */,
+				D6E046EB1D53E9B2008922B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E046F41D53E9B2008922B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E046FF1D53E9B2008922B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E046DA1D53E9B2008922B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E046E61D53E9B2008922B3 /* GameScene.swift in Sources */,
+				D6E046E81D53E9B2008922B3 /* GameViewController.swift in Sources */,
+				D6E046E21D53E9B2008922B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E046F21D53E9B2008922B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E046FB1D53E9B2008922B3 /* TextureFadeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E046FD1D53E9B2008922B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E047061D53E9B2008922B3 /* TextureFadeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6E046F81D53E9B2008922B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E046DD1D53E9B2008922B3 /* TextureFade */;
+			targetProxy = D6E046F71D53E9B2008922B3 /* PBXContainerItemProxy */;
+		};
+		D6E047031D53E9B2008922B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E046DD1D53E9B2008922B3 /* TextureFade */;
+			targetProxy = D6E047021D53E9B2008922B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6E046E91D53E9B2008922B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E046EA1D53E9B2008922B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6E046EE1D53E9B2008922B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E046EF1D53E9B2008922B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6E047081D53E9B2008922B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E047091D53E9B2008922B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6E0470B1D53E9B2008922B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextureFade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esscbee.TextureFade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6E0470C1D53E9B2008922B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextureFade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esscbee.TextureFade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6E0470E1D53E9B2008922B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TextureFadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esscbee.TextureFadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextureFade.app/TextureFade";
+			};
+			name = Debug;
+		};
+		D6E0470F1D53E9B2008922B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextureFadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esscbee.TextureFadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextureFade.app/TextureFade";
+			};
+			name = Release;
+		};
+		D6E047111D53E9B2008922B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TextureFadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esscbee.TextureFadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextureFade;
+			};
+			name = Debug;
+		};
+		D6E047121D53E9B2008922B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextureFadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esscbee.TextureFadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextureFade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E046D91D53E9B2008922B3 /* Build configuration list for PBXProject "TextureFade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E047081D53E9B2008922B3 /* Debug */,
+				D6E047091D53E9B2008922B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E0470A1D53E9B2008922B3 /* Build configuration list for PBXNativeTarget "TextureFade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E0470B1D53E9B2008922B3 /* Debug */,
+				D6E0470C1D53E9B2008922B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6E0470D1D53E9B2008922B3 /* Build configuration list for PBXNativeTarget "TextureFadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E0470E1D53E9B2008922B3 /* Debug */,
+				D6E0470F1D53E9B2008922B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6E047101D53E9B2008922B3 /* Build configuration list for PBXNativeTarget "TextureFadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E047111D53E9B2008922B3 /* Debug */,
+				D6E047121D53E9B2008922B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E046D61D53E9B2008922B3 /* Project object */;
+}
